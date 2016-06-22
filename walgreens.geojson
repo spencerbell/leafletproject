@@ -1,0 +1,29 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+                                                                                                                                  
+"features": [
+{ "type": "Feature", "properties": { "Address": "7001 Frankford Ave", "City": "Philadelphia", "State": "PA", "Zip": 19135, "Latitude": 40.033908, "Longitude": -75.045646 }, "geometry": { "type": "Point", "coordinates": [ -75.045646, 40.033908 ] } },
+{ "type": "Feature", "properties": { "Address": "1 S Broad St", "City": "Philadelphia", "State": "PA", "Zip": 19107, "Latitude": 39.951026, "Longitude": -75.163833 }, "geometry": { "type": "Point", "coordinates": [ -75.163833, 39.951026 ] } },
+{ "type": "Feature", "properties": { "Address": "1607 Bridge St", "City": "Philadelphia", "State": "PA", "Zip": 19124, "Latitude": 40.023005, "Longitude": -75.075926 }, "geometry": { "type": "Point", "coordinates": [ -75.075926, 40.023005 ] } },
+{ "type": "Feature", "properties": { "Address": "1617 John F Kennedy Blvd", "City": "Philadelphia", "State": "PA", "Zip": 19103, "Latitude": 39.954170, "Longitude": -75.167343 }, "geometry": { "type": "Point", "coordinates": [ -75.167343, 39.95417 ] } },
+{ "type": "Feature", "properties": { "Address": "1800 South St", "City": "Philadelphia", "State": "PA", "Zip": 19146, "Latitude": 39.944246, "Longitude": -75.172198 }, "geometry": { "type": "Point", "coordinates": [ -75.172198, 39.944246 ] } },
+{ "type": "Feature", "properties": { "Address": "2014 S Broad St", "City": "Philadelphia", "State": "PA", "Zip": 19145, "Latitude": 39.924733, "Longitude": -75.170154 }, "geometry": { "type": "Point", "coordinates": [ -75.170154, 39.924733 ] } },
+{ "type": "Feature", "properties": { "Address": "12050 Bustleton Ave", "City": "Philadelphia", "State": "PA", "Zip": 19116, "Latitude": 40.123484, "Longitude": -75.016216 }, "geometry": { "type": "Point", "coordinates": [ -75.016216, 40.123484 ] } },
+{ "type": "Feature", "properties": { "Address": "2310 W Oregon Ave", "City": "Philadelphia", "State": "PA", "Zip": 19145, "Latitude": 39.918272, "Longitude": -75.186743 }, "geometry": { "type": "Point", "coordinates": [ -75.186743, 39.918272 ] } },
+{ "type": "Feature", "properties": { "Address": "300 N 63rd St", "City": "Philadelphia", "State": "PA", "Zip": 19139, "Latitude": 39.967667, "Longitude": -75.246435 }, "geometry": { "type": "Point", "coordinates": [ -75.246435, 39.967667 ] } },
+{ "type": "Feature", "properties": { "Address": "4201 N Broad St", "City": "Philadelphia", "State": "PA", "Zip": 19140, "Latitude": 40.017294, "Longitude": -75.148702 }, "geometry": { "type": "Point", "coordinates": [ -75.148702, 40.017294 ] } },
+{ "type": "Feature", "properties": { "Address": "7201 Castor Ave", "City": "Philadelphia", "State": "PA", "Zip": 19149, "Latitude": 40.050172, "Longitude": -75.066680 }, "geometry": { "type": "Point", "coordinates": [ -75.06668, 40.050172 ] } },
+{ "type": "Feature", "properties": { "Address": "5627 Germantown Ave", "City": "Philadelphia", "State": "PA", "Zip": 19144, "Latitude": 40.035853, "Longitude": -75.174374 }, "geometry": { "type": "Point", "coordinates": [ -75.174374, 40.035853 ] } },
+{ "type": "Feature", "properties": { "Address": "901 Market St", "City": "Philadelphia", "State": "PA", "Zip": 19107, "Latitude": 39.951534, "Longitude": -75.154752 }, "geometry": { "type": "Point", "coordinates": [ -75.154752, 39.951534 ] } },
+{ "type": "Feature", "properties": { "Address": "245 N Broad St", "City": "Philadelphia", "State": "PA", "Zip": 19107, "Latitude": 39.957375, "Longitude": -75.162225 }, "geometry": { "type": "Point", "coordinates": [ -75.162225, 39.957375 ] } },
+{ "type": "Feature", "properties": { "Address": "807 Locust St", "City": "Philadelphia", "State": "PA", "Zip": 19107, "Latitude": 39.947225, "Longitude": -75.155519 }, "geometry": { "type": "Point", "coordinates": [ -75.155519, 39.947225 ] } },
+{ "type": "Feature", "properties": { "Address": "1809 E Allegheny Ave", "City": "Philadelphia", "State": "PA", "Zip": 19134, "Latitude": 39.996406, "Longitude": -75.112633 }, "geometry": { "type": "Point", "coordinates": [ -75.112633, 39.996406 ] } },
+{ "type": "Feature", "properties": { "Address": "4001 Kensington Ave", "City": "Philadelphia", "State": "PA", "Zip": 19124, "Latitude": 40.006882, "Longitude": -75.092982 }, "geometry": { "type": "Point", "coordinates": [ -75.092982, 40.006882 ] } },
+{ "type": "Feature", "properties": { "Address": "10000 Bustleton Ave", "City": "Philadelphia", "State": "PA", "Zip": 19116, "Latitude": 40.103313, "Longitude": -75.029109 }, "geometry": { "type": "Point", "coordinates": [ -75.029109, 40.103313 ] } },
+{ "type": "Feature", "properties": { "Address": "1227 Locust St", "City": "Philadelphia", "State": "PA", "Zip": 19107, "Latitude": 39.947895, "Longitude": -75.161607 }, "geometry": { "type": "Point", "coordinates": [ -75.161607, 39.947895 ] } },
+{ "type": "Feature", "properties": { "Address": "2655 S 10th St", "City": "Philadelphia", "State": "PA", "Zip": 19148, "Latitude": 39.916108, "Longitude": -75.164327 }, "geometry": { "type": "Point", "coordinates": [ -75.164327, 39.916108 ] } },
+{ "type": "Feature", "properties": { "Address": "8828 Frankford Ave", "City": "Philadelphia", "State": "PA", "Zip": 19136, "Latitude": 40.050691, "Longitude": -75.011181 }, "geometry": { "type": "Point", "coordinates": [ -75.011181, 40.050691 ] } },
+{ "type": "Feature", "properties": { "Address": "1101 Locust St", "City": "Philadelphia", "State": "PA", "Zip": 19107, "Latitude": 39.947680, "Longitude": -75.159365 }, "geometry": { "type": "Point", "coordinates": [ -75.159365, 39.94768 ] } }
+]
+}

@@ -1,0 +1,12 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+                                                                                                                                  
+"features": [
+{ "type": "Feature", "properties": { "Address": "2701 Castor Ave", "City": "Philadelphia", "State": "PA", "Latitude": 39.991215, "Longitude": -75.089745 }, "geometry": { "type": "Point", "coordinates": [ -75.089745, 39.991215 ] } },
+{ "type": "Feature", "properties": { "Address": "1 Mifflin St", "City": "Philadelphia", "State": "PA", "Latitude": 39.923772, "Longitude": -75.145899 }, "geometry": { "type": "Point", "coordinates": [ -75.145899, 39.923772 ] } },
+{ "type": "Feature", "properties": { "Address": "4000 Monument Rd", "City": "Philadelphia", "State": "PA", "Latitude": 40.006086, "Longitude": -75.212145 }, "geometry": { "type": "Point", "coordinates": [ -75.212145, 40.006086 ] } },
+{ "type": "Feature", "properties": { "Address": "7400 Bustleton Ave", "City": "Philadelphia", "State": "PA", "Latitude": 40.051333, "Longitude": -75.058631 }, "geometry": { "type": "Point", "coordinates": [ -75.058631, 40.051333 ] } },
+{ "type": "Feature", "properties": { "Address": "11000 Roosevelt Blvd Ste 3", "City": "Philadelphia", "State": "PA", "Latitude": 40.101882, "Longitude": -75.010845 }, "geometry": { "type": "Point", "coordinates": [ -75.010845, 40.101882 ] } }
+]
+}

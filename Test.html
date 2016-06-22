@@ -1,0 +1,127 @@
+<html>
+<head>
+  <title>A Leaflet map!</title>
+  <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.css"/>
+  <script src="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.js"></script>
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <style>
+    #map{ height: 100% }
+  </style>
+</head>
+<body>
+ 
+  <div id="map"></div>
+ 
+  <script>
+ 
+  // initialize the map
+  var map = L.map('map').setView([39.95, -75.16], 13);
+ 
+  // load a tile layer
+  L.tileLayer('http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',
+    {
+      attribution: 'Tiles by <a href="http://mapc.org">MAPC</a>, Data by <a href="http://mass.gov/mgis">MassGIS</a>',
+      maxZoom: 17,
+      minZoom: 9
+    }).addTo(map);
+    
+$.getJSON("neighborhoods.geojson",function(hoodData){
+  L.geoJson( hoodData, {
+    style: function(feature){
+      var fillColor,
+          density = feature.properties.LISTNAME;
+      if ( density > 1 ) fillColor = "#006837";
+      else fillColor = "#4557ff";  // no data
+      return { color: "#000000", weight: 5, fillColor: fillColor, fillOpacity: .6 };
+    },
+    onEachFeature: function( feature, layer ){
+      layer.bindPopup(feature.properties.LISTNAME)
+    }
+  }).addTo(map);
+});
+$.getJSON("walgreens.geojson",function(data){
+  var ratIcon = L.icon({
+    iconUrl: 'walgreens.svg',
+    iconSize: [60,50]
+  });
+  L.geoJson(data,{
+    pointToLayer: function(feature,latlng){
+      var marker = L.marker(latlng,{icon: ratIcon});
+      marker.bindPopup(feature.properties.Address);
+      return marker;
+    }
+  }).addTo(map);
+});
+ $.getJSON("riteaid.geojson",function(data){
+  var ratIcon = L.icon({
+    iconUrl: 'RiteAid.svg',
+    iconSize: [45,45]
+  });
+  L.geoJson(data,{
+    pointToLayer: function(feature,latlng){
+      var marker = L.marker(latlng,{icon: ratIcon});
+      marker.bindPopup(feature.properties.Address);
+      return marker;
+    }
+  }).addTo(map);
+});
+ $.getJSON("target.geojson",function(data){
+  var ratIcon = L.icon({
+    iconUrl: 'Target.svg',
+    iconSize: [45,45]
+  });
+  L.geoJson(data,{
+    pointToLayer: function(feature,latlng){
+      var marker = L.marker(latlng,{icon: ratIcon});
+      marker.bindPopup(feature.properties.Address);
+      return marker;
+    }
+  }).addTo(map);
+});
+ $.getJSON("familydollar.geojson",function(data){
+  var ratIcon = L.icon({
+    iconUrl: 'FamilyDollar.svg',
+    iconSize: [45,45]
+  });
+  L.geoJson(data,{
+    pointToLayer: function(feature,latlng){
+      var marker = L.marker(latlng,{icon: ratIcon});
+      marker.bindPopup(feature.properties.Address);
+      return marker;
+    }
+  }).addTo(map);
+});
+ $.getJSON("cvs.geojson",function(data){
+  var ratIcon = L.icon({
+    iconUrl: 'CVS.svg',
+    iconSize: [45,45]
+  });
+  L.geoJson(data,{
+    pointToLayer: function(feature,latlng){
+      var marker = L.marker(latlng,{icon: ratIcon});
+      marker.bindPopup(feature.properties.Address);
+      return marker;
+    }
+  }).addTo(map);
+});
+ $.getJSON("seveneleven.geojson",function(data){
+  var ratIcon = L.icon({
+    iconUrl: '7-11.svg',
+    iconSize: [45,45]
+  });
+  L.geoJson(data,{
+    pointToLayer: function(feature,latlng){
+      var marker = L.marker(latlng,{icon: ratIcon});
+      marker.bindPopup(feature.properties.Address);
+      return marker;
+    }
+  }).addTo(map);
+});
+  </script>
+</body>
+</html>
+
+  </script>
+</body>
+</html>
+	
